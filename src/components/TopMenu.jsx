@@ -4,7 +4,7 @@ function TopMenu(props) {
     return (
         <div className="navbar text-xl">
             <div style={{display: 'flex', alignItems: 'center'}} className="logo">
-                <h1 className="text-2xl">ToDo App</h1>
+                <h1 className="text-2xl font-bold mt-2">ToDo App</h1>
             </div>
         </div>)}
 

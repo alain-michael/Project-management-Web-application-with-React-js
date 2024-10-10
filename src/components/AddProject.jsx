@@ -33,7 +33,7 @@ function AddProject({ setProjectsList, projectsList }) {
         onKeyDown={addProject}
         onChange={(event) => setInputData(event.target.value)}
       />
-      <button onClick={addProject}>+</button>
+      <button className="hover:bg-blue-500 ml-2 transition" onClick={addProject}>+</button>
     </div>
   );
 }
